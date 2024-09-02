@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>tomb getaway</title>
+         <style>
+            body {
+                font-family: 'Courier New', Courier, monospace;
+                text-align: center;
+            }
+
+            #board {
+                border-bottom: 5px solid rgb(233, 186, 100);
+                background-image: url('./img/desert2.gif');
+                background-size: cover;
+                border-radius:5px;
+            }
+
+            nav {
+                background-color:rgb(114, 156, 204);
+                color: #fff;
+                 padding: 10px;
+                 text-align: center;
+                 
+            }
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            nav ul li {
+                display: inline; 
+                margin: 0 10px;
+            }
+            nav ul li a, .explore {
+                 color: #fff;
+                 text-decoration: none;
+                 font-family:Arial;
+            }
+        
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="blog.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+    <h1>Tomb Dash</h1>
+    <canvas id="board"></canvas>
+
+
+
+    <script src="scripts/dino-game.js">  </script>
+    </body>
+</html>
